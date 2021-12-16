@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>web1-CSS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
+  <ol>
+    <li> <a href="1.html">HTML</a></li>
+    <li> <a href="2.html">CSS </a></li>
+    <li> <a href="3.html">JavaScript</a></li>
+  </ol>
+
+  <div id="article">
+    <h2>CSS이란 무엇인가?</h2>
+    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+    CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+  </div>
+</div>
+</body>
+</html>
+<!--
+<li> <a href="1.html" class="saw">HTML</a></li>
+<li> <a href="2.html" class="saw" id="active">CSS </a></li>
+.saw {
+  color:gray;
+}
+class="saw"로 단위를 생성한다
+<style>로 속성을 지정할 떄는 .saw{}로 한다
+"saw active"로 단위를 지정하면
+<style>로 속성을 지정할 떄 나중에 작성된(밑에 있는) 속성을 가진다
+id로 속성을 지정하면 id 속성을 따른다
+우선순위 태그(a)<class(.saw)<id(#active)(1등)
+<div> block값을 가지고 아무런 속성이 없는 태그값
+<spend> inline 값을 가지고 아무런 속성이 없는 태그값
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr
+->한 열에 같이 배치한다는 뜻
+먼저 적은게 왼쪽 나중은 오른 쪽
+150px 1fr 왼쪽 150px만큼 유지한다 오른쪽은 그 나머지 면적 차지
+@media(max-width:800px){속성}
+800을 최대로(0~800px) 창 길이를 가지면 속성의 값 적용
+-->
